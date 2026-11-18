@@ -10,3 +10,6 @@ def check_palindrome(n):
     else:
         print("The Number is not a Palindrome")
 check_palindrome(123321)
+
+#TC :- O(log10(N))
+#SC :- O(1)
