@@ -9,4 +9,6 @@ def reverse(arr):
 
 arr = [1,23,45,98,100,61,29]
 print(reverse(arr))
-    
+
+#TC :- O(n/2) == O(n)
+#SC :- O(1)
