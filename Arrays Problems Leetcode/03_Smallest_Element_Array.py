@@ -7,3 +7,6 @@ def smallestElement(arr):
     return smallest
 arr = [32,34,65,4,5,-1,7]
 print(smallestElement(arr))
+
+#TC :- O(n)
+#SC :- O(1)
