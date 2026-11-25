@@ -11,3 +11,6 @@ def secondLargest(arr):
 
 arr = [1,2,3,43,25,76,67]
 print(secondLargest(arr))
+
+#TC :- O(n)
+#SC :- O(1)
