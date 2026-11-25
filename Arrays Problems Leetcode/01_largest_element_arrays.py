@@ -7,3 +7,6 @@ def largestElement(arr):
 
 arr = [10,5,8,24,76,1,2,3]
 print(largestElement(arr))
+
+#TC :- O(n)
+#SC :- O(1)
