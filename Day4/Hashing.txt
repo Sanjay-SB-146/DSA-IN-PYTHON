@@ -1,0 +1,17 @@
+Hashing in Python :- 
+------------------
+               Restoring values into some datastructure like 
+               list/dict/set and the fetching it;
+
+Q1. n = [5,3,2,2,1,5,5,7,5,10]           constraints:
+    m = [10,111,1,9,5,67]                    1. 1 <= n[i] <= 10
+                                             2. n can have 10^8 elements
+                                             3. m can have 10^8 elements
+Brute Force Approach:
+--------------------
+    for num in m:
+       count = 0
+       for x in n:
+           if(x==num)
+            count += 1
+       print(count)

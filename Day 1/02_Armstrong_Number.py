@@ -23,3 +23,6 @@ def Check_Armstrong(n):
 
     
 Check_Armstrong(1634)
+
+# TC :- O(log10(N))
+# SC :- O(1)

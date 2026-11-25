@@ -1,0 +1,24 @@
+Time Compliexity (TC) :- Rate of Increase in Time with respect to Input Size
+---------------------
+
+Representation :- Big-O-Notation -> O(your time taken)
+--------------
+
+Rules for TC :- 
+------------
+  1. Always Caluclate TC in terms of Worst Case
+  2. Avoid the Constant Values 
+  3. Avoid Lower Bound
+      eg :- TC = O(8N^6 + 3N^2 + 15) = O(N^6)
+
+Types of TC :-
+-----------
+      1. Best Case
+      2. Average Case
+      3. Worst Case
+
+Different Types of TC Caluclation :-
+-----------------------------------
+     1. Big-O-Notation O() :- Worst Case [Upper Bound]
+     2. Theta Notation :- Average Case
+     3. Omega Notation :- Best Case [Lower Bound]

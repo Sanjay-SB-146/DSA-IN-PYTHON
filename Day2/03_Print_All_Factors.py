@@ -47,7 +47,7 @@ def check_factors(n):
     print(result)
 check_factors(100)
 
-# if they ask sort use result.sort()
+# if they ask sort use result.sort() the TC :- O(sqrt(N)) + O(N log(N)) and SC :- O(K)
 
 # TC :- O(sqrt(N))
 # SC :- O(K)

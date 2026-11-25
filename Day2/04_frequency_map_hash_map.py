@@ -9,6 +9,9 @@ for i in range(0,len(nums)):
         freq_map[nums[i]] = 1
 print(freq_map)
 
+# TC :- O(N)
+# SC :- O(N)
+
 '''
 
 # Method 2
@@ -18,3 +21,5 @@ n = len(nums)
 for i in range(0,n):
     hash_map[nums[i]] = hash_map.get(nums[i],0)+1
 print(hash_map)
+
+# TC :- O(N)

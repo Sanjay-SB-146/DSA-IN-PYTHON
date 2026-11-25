@@ -1,0 +1,8 @@
+Space Complexity :- Memory Space
+----------------
+
+Representation :- Big-O-Notation
+---------------
+
+Space Complexity = Auxilary Space(extra space used to sole problem)
+ + Input Space (space used to store input)

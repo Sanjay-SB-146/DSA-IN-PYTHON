@@ -1,0 +1,32 @@
+If a number is n = 5873
+
+   1. 5873 % 10 == 3 by mod we get last digit
+   2. 5873 // 10 we delete the last digit
+
+   while num>0:
+       last_digit = num % 10
+       print(last_digit)
+       num = num // 10
+
+  // Counting Numbers 
+  ---------------------
+  n = 5873
+  num= Ncount = 0
+  while n>0:
+       count += 1
+       num = num // 10
+  return count
+
+  TC :- O(log10(N))
+  SC :- O(1)
+
+  or
+
+  logorithmic approach
+
+  log10(2999) = 3.-- + 1 = 4
+  log10(123456.0987) = 5. + 1 = 6
+
+  from math import *
+  def count_digit(num):
+     return int(log10(num)+1)
