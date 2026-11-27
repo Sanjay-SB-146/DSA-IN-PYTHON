@@ -9,4 +9,8 @@ arr = [32,34,65,4,5,-1,7]
 print(smallestElement(arr))
 
 #TC :- O(n)
+<<<<<<< HEAD
 #SC :- O(1)
+=======
+#SC :- O(1)
+>>>>>>> 8a41f12 (arrays)

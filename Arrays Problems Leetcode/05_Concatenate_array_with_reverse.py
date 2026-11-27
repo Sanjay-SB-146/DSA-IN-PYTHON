@@ -52,5 +52,10 @@ def concatenateReverse(arr):
 arr = [1,2,3]
 print(concatenateReverse(arr))
 
+<<<<<<< HEAD
 #TC :- O(n)
 #SC :- O(n)
+=======
+#TC :- O(n) + O(n) == O(n)
+#SC :- O(n)
+>>>>>>> 8a41f12 (arrays)

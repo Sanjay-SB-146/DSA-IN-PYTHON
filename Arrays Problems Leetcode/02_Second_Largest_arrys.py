@@ -13,4 +13,8 @@ arr = [1,2,3,43,25,76,67]
 print(secondLargest(arr))
 
 #TC :- O(n)
+<<<<<<< HEAD
 #SC :- O(1)
+=======
+#SC :- O(1)
+>>>>>>> 8a41f12 (arrays)
